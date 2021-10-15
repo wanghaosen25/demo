@@ -1,7 +1,7 @@
 cat<<EOF>/etc/cfg.json
 {
 	"inbounds":[{
-		"port":$PORT,
+		"port":443,
 		"protocol":"vless",
 		"settings":{
 			"decryption":"none",
@@ -18,4 +18,4 @@ cat<<EOF>/etc/cfg.json
 	}]
 }
 EOF
-/xray -c /ect/cfg.json
+/usr/bin/xray -c /ect/cfg.json
