@@ -1,6 +1,14 @@
 {
+	"name":"",
+	"description":"",
+	"keywords":[""],
 	"env":{
-		"id":{}
+		"id":{
+			"description":"",
+			"value":""
+		}
 	},
+	"website":"https://github.com/xkh01/demo",
+	"repository":"https://github.com/xkh01/demo",
 	"stack":"container"
 }
