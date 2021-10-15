@@ -1,14 +1,12 @@
 {
-	"name":"",
-	"description":"",
-	"keywords":[""],
+	"name":"demo",
+	"description":"demo",
+	"keywords":["demo"],
 	"env":{
 		"id":{
-			"description":"",
+			"description":"id",
 			"value":""
 		}
 	},
-	"website":"https://github.com/xkh01/demo",
-	"repository":"https://github.com/xkh01/demo",
 	"stack":"container"
 }
