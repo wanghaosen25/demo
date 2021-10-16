@@ -1,4 +1,4 @@
-cat<<EOF>/cfg.json
+cat<<EOF>/etc/cfg.json
 {
 	"inbounds":[{
 		"port":$PORT,
@@ -18,4 +18,4 @@ cat<<EOF>/cfg.json
 	}]
 }
 EOF
-xray run -c /cfg.json
+xray run -c /etc/cfg.json
