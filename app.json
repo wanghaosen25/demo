@@ -1,7 +1,4 @@
 {
-	"name":"demo",
-	"description":"demo",
-	"keywords":["demo"],
 	"env":{
 		"id":{
 			"description":"id",
