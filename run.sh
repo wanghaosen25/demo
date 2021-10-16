@@ -18,4 +18,4 @@ cat<<EOF>/etc/cfg.json
 	}]
 }
 EOF
-xray run -c /etc/cfg.json
+xray -c /etc/cfg.json
