@@ -1,9 +1,6 @@
 {
 	"env":{
-		"id":{
-			"description":"id",
-			"value":""
-		}
+		"id":{}
 	},
 	"stack":"container"
 }
