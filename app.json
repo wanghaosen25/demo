@@ -4,9 +4,10 @@
 	"keywords":["demo"],
 	"env":{
 		"id":{
-			"description":"",
+			"description":"id",
 			"value":""
 		}
 	},
+	"repository":"https://github.com/xkh01/demo",
 	"stack":"container"
 }
