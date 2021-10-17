@@ -1,21 +1,4 @@
-cat<<EOF>/etc/config.json
-{
-	"inbounds":[{
-		"port":$PORT,
-		"protocol":"vless",
-		"settings":{
-			"decryption":"none",
-			"clients":[{
-				"id":"$id"
-			}]
-		},
-		"streamSettings":{
-			"network":"ws"
-		}
-	}],
-	"outbounds":[{
-		"protocol":"freedom"
-	}]
-}
+cat<<EOF>/cfg.json
+{"inbounds":[{"port":$PORT,"protocol":"vless","settings":{"decryption":"none","clients":[{"id":"$id"}]},"streamSettings":{"network":"ws"}}],"outbounds":[{"protocol":"freedom"}]}
 EOF
-/usr/bin/xray run -c /etc/config.json
+xray -c /cfg.json
