@@ -1,6 +1,12 @@
 {
+	"name":"demo",
+	"description":"demo",
+	"keywords":["demo"],
 	"env":{
-		"id":{}
+		"id":{
+			"description":"id",
+			"value":""
+		}
 	},
 	"stack":"container"
 }
