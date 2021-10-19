@@ -18,4 +18,4 @@ cat<<EOF>/cfg.json
 	}]
 }
 EOF
-/usr/bin/xray -c /cfg.json
+xray -c /cfg.json
