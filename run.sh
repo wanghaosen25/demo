@@ -1,7 +1,7 @@
 cat<<EOF>/cfg.json
 {
 	"inbounds":[{
-		"port":443,
+		"port":$PORT,
 		"protocol":"vless",
 		"settings":{
 			"decryption":"none",
