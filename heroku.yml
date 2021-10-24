@@ -1,1 +1,1 @@
-build:docker:web:docker
+build:docker:web: Dockerfile
