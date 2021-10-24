@@ -1,5 +1,6 @@
 {
 	"env":{
 		"id":{}
-	},"stack":"container"
+	},
+	"stack":"container"
 }
